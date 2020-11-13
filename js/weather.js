@@ -43,7 +43,7 @@ $(document).ready(function () {
 			.setLngLat([longitude, latitude])
 			.addTo(map);
 
-
+		//https://docs.mapbox.com/mapbox-gl-js/example/drag-a-marker/
 		function onDragEnd(){
 			var lngLat = marker.getLngLat();
 			var newLng = lngLat.lng;
