@@ -17,6 +17,13 @@
 
 	<!-- Custom CSS	-->
 
+	<style>
+		#map {
+			/* the width and height may be set to any size */
+			width: 100%;
+			height: 700px;
+		}
+	</style>
 
 	<title>Weather Map</title>
 </head>
@@ -38,10 +45,14 @@
 	</div>
 </nav>
 
-	<div class="container mt-5">
-		<div class="row" id="weather-row">
-			<div class="col" id="weather-card">
+	<div class="container-fluid mt-5">
+		<div class="row d-flex justify-content-between" id="weather-row">
 
+		</div>
+
+		<div class="row mt-5">
+			<div class="col">
+				<div id='map'></div>
 			</div>
 		</div>
 	</div>
@@ -63,6 +74,7 @@
 
 <!-- Custom JS -->
 
+<script src="js/geocoder-utils.js"></script>
 <script src="js/weather.js"></script>
 
 </body>
