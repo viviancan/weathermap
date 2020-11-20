@@ -1,6 +1,6 @@
 # Weather Map Project
 
-View this project live [here](https://elegant-carson-be38ac.netlify.app/)
+View this project live [here](https://elegant-carson-be38ac.netlify.app/).
 
 This repository contains a solution to the updated weather map project which is part of the [Codeup](https://codeup.com/) curriculum. This project utilizes Bootstrap, Mapbox API, and the Open Weather Map API.
 
@@ -12,6 +12,7 @@ On initial page load, a 5 day forecast is displayed for San Antonio, TX. You are
 3. Create a `keys.js` file in the js directory
 4. Copy the setup from `sample-keys.js` to your `keys.js`
 5. Add your API keys to the `keys.js` 
+6. Open `index.html` in a browser of your choice
 
 
 
