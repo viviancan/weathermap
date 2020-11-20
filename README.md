@@ -1,4 +1,4 @@
-#Weather Map Project
+# Weather Map Project
 
 This is a repository for a solution to the updated weather map project. This project utilizes Bootstrap, Mapbox API, and the Open Weather Map API.
 
